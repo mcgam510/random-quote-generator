@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 1s;
+}
+
+#quote-box {
+  width: 450px;
+  padding: 40px;
+  transition: background-color 1s;
+  background-color: white;
+  border-radius: 7px;
+  }
+  
+#quote {
+  text-align: center;
+  font-size: 25px;
+  transition: color 1s;
+  animation: fadeIn 1.5s;
+}
+
+h1 {
+  display: inline
+}
+  
+#author {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 18px;
+  transition: color 1s;
+  animation: fadeIn 1.5s;
+}
+  
+#buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+#new-quote {
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  transition: background-color 1s;
+  border: none
+}
